@@ -4,29 +4,168 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Page Tite</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        nav {
+            text-align: center;
+        }
+        
+        nav a {
+            text-decoration: none;
+            color: rgb(22, 22, 23);
+        }
+        
+        nav a:hover {
+            color: rgb(0, 0, 0);
+            background-color: rgb(83, 228, 93);
+            display: block;
+        }
+        
+        ul ul li {
+            display: none;
+        }
+        
+        ul li {
+            float: left;
+            width: 150px;
+            background-color: rgb(115, 0, 255);
+            height: 50px;
+            line-height: 50px;
+        }
+        
+        ul {
+            list-style-type: none;
+        }
+        
+        ul li:hover ul li {
+            display: block;
+        }
+        
+        ul ul ul {
+            display: none;
+        }
+        
+        ul ul li {
+            position: relative;
+        }
+        
+        ul ul li:hover ul {
+            display: block;
+            position: absolute;
+            left: 150px;
+        }
+    </style>
 
 </head>
 
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-s-12 headSide">Header</div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-s-12 menuSide">Menu</div>
-        </div>
-        <div class="row">
-            <div class="col-3 col-s-3 leftSide">Left</div>
-            <div class="col-6 col-s-6 containerSide">Center</div>
-            <div class="col-3 col-s-3 rightSide">Right</div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-s-12 footerSide">Footer</div>
-        </div>
-    </div>
-</body>
+    <nav>
+        <ul>
+            <li><a href="https://youtu.be/T_naBlMeV2Q?si=Wd-Lj72gdvj2ULO8">Home</a></li>
+            <li><a href="">About Us</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li>
+                <a href="#">Computer</a>
+                <ul>
+                    <li>
+                        <a href="#">Laptop</a>
+                        <ul>
+                            <li><a href="#">Apple</a></li>
+                            <li><a href="#">MSI</a></li>
+                            <li><a href="#">Acer</a></li>
+                            <li><a href="#">Dell</a></li>
+                            <li><a href="#">Asus</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Desktop</a>
+                        <ul>
+                            <li><a href="#">All In One PC</a></li>
+                            <li><a href="#">Brand Desktop</a></li>
+                            <li><a href="#">Custom PC</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Monitor</a>
+                        <ul>
+                            <li><a href="#">Monitor</a></li>
+                            <li><a href="#">Gaming Monitor</a></li>
+                            <li><a href="#">Professional Monitor</a></li>
+                            <li><a href="#">Monitor Bracket</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Network</a>
+                        <ul>
+                            <li><a href="#">Cash Drawer</a></li>
+                            <li><a href="#">Media Converter</a></li>
+                            <li><a href="#">Mobile Network</a></li>
+                            <li><a href="#">Network Adapter</a></li>
+                            <li><a href="#">Network Cable</a></li>
+                            <li><a href="#">Network Connector</a></li>
+                            <li><a href="#">Network Tools</a></li>
+                            <li><a href="#">Router</a></li>
+                            <li><a href="#">Switch</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Printer</a>
+                        <ul>
+                            <li><a href="#">Barcode Scanner</a></li>
+                            <li><a href="#">Print Server</a></li>
+                            <li><a href="#">Printer</a></li>
+                            <li><a href="#">Printer Supply</a></li>
+                            <li><a href="#">Scanner</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Projector</a>
+                        <ul>
 
+                            Seng Socheata, [8/13/2025 9:25 AM]
+                            <li><a href="#">Projector</a></li>
+                            <li><a href="#">Projector Screen</a></li>
+                            <li><a href="#">Wireless Presenter</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">UPS</a>
+                        <ul>
+                            <li><a href="#">Online UPS</a></li>
+                            <li><a href="#">Personal Used UPS</a></li>
+                            <li><a href="#">UPS Battery</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Accessories</a>
+                        <ul>
+                            <li><a href="#">Cable</a></li>
+                            <li><a href="#">Converter</a></li>
+                            <li><a href="#">Laptop Bag & Backpack</a></li>
+                            <li><a href="#">Laptop Cooling Pads</a></li>
+                            <li><a href="#">Mouse Pad</a></li>
+                            <li><a href="#">Mouse</a></li>
+                            <li><a href="#">Keyboard</a></li>
+                            <li><a href="#">Mouse Keyboard</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li><a href="Support.html">Support</a></li>
+            <li><a href="Job.html">Job Opportunity</a></li>
+            <li><a href="Login.html">Login</a></li>
+        </ul>
+    </nav>
+    </ul>
+
+    </nav>
+
+</body>
 
 </html>
