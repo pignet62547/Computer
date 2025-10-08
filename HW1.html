@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            padding: 3px;
+            margin: 0px;
+        }
+        
+        .row {
+            border: 1px soli lightpink;
+            text-align: center;
+            display: flex;
+            justify-content: space-between
+        }
+        
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+        
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+        }
+        
+        .header {
+            border: 1px;
+            background-color: rgb(7, 183, 214);
+            text-align: center;
+        }
+        
+        .menu {
+            border: 1px;
+            background-color: rgb(104, 202, 28);
+            text-align: center;
+        }
+        
+        .heading {
+            border: 1px;
+            background-color: coral;
+            text-align: center;
+            padding: 50px;
+        }
+        
+        .article {
+            border: 1px;
+            background-color: rgb(227, 22, 49);
+            text-align: center;
+            height: 20px;
+        }
+        
+        .aside {
+            border: 1px;
+            background-color: rgb(111, 41, 41);
+            text-align: center;
+        }
+        
+        .footerside {
+            border: 1px;
+            background-color: rgb(111, 38, 180);
+            text-align: center;
+        }
+        
+        .col-12 {
+            width: 100%;
+        }
+        
+        .col-8 {
+            width: 66.66%;
+        }
+        
+        .col-4 {
+            width: 33.33%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 header">Header </div>
+        </div>
+        <nav class="row">
+            <div class="col-12 menu">Menu</div>
+        </nav>
+        <section class="row">
+            <div>
+                <div class="col-8 heading">Heading <br><br>
+                </div>
+                <div class="col-8 article">Article </div>
+            </div>
+
+
+            <div class="col-4 aside">Aside</div>
+        </section>
+
+        <div class="row">
+            <div class="col-12 footerside">Footer</div>
+        </div>
+    </div>
+
+</body>
+
+</html>

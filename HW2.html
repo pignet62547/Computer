@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            max-width: 85%;
+            margin: 0 auto;
+            /* horizontally centers */
+        }
+        
+        .row {
+            border: 1px soli lightpink;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .headSide {
+            border: 1px solid khaki;
+            background-color: rgb(241, 112, 241);
+            height: 40px;
+        }
+        
+        .menuSide {
+            border: 1px solid fuchsia;
+            background-color: cornflowerblue;
+            text-align: center;
+            height: 40px;
+        }
+        
+        .leftSide {
+            border: 1px solid rosybrown;
+            background-color: rgb(231, 197, 139);
+            height: 200px;
+            text-align: center;
+        }
+        
+        .aSide {
+            border: 1px solid tan;
+            background-color: rgb(50, 220, 220);
+            height: 200px;
+            text-align: center;
+        }
+        
+        .rightSide {
+            border: 1px solid lightpink;
+            background-color: khaki;
+            height: 200px;
+            text-align: center;
+        }
+        
+        .contentSide {
+            border: 1px solid lightpink;
+            background-color: rgb(53, 237, 65);
+            height: 200px;
+            text-align: center;
+        }
+        
+        .footerSide {
+            border: 1px solid mediumturquoise;
+            background-color: rgb(164, 197, 107);
+            text-align: center;
+            height: 30px;
+        }
+        
+        .col-1 {
+            width: 8.33%;
+        }
+        
+        .col-2 {
+            width: 16.66%;
+        }
+        
+        .col-3 {
+            width: 25%;
+        }
+        
+        .col-4 {
+            width: 33.33%;
+        }
+        
+        .col-5 {
+            width: 41.66%;
+        }
+        
+        .col-6 {
+            width: 50%;
+        }
+        
+        .col-7 {
+            width: 58.33%;
+        }
+        
+        .col-8 {
+            width: 66.66%;
+        }
+        
+        .col-9 {
+            width: 75%;
+        }
+        
+        .col-10 {
+            width: 83.33%;
+        }
+        
+        .col-11 {
+            width: 91.66%;
+        }
+        
+        .col-12 {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <table class="containerSide">
+        <div class="row">
+            <div class="col-12 headSide">
+                <header>Header</header>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 menuSide">Menu</div>
+        </div>
+        <section>
+            <div class="row">
+                <h1 style="width: 10px;">
+                    <div class="col-4 aSide ">Home</div>
+                    <div class="col-4 leftSide">Picture</div>
+                </h1>
+
+                <div class="col-4 rightSide">Video</div>
+
+                <div class="col-8 contentSide">Content</div>
+
+            </div>
+
+            </div>
+            <div class="row">
+                <div class="col-12 footerSide">Footer</div>
+            </div>
+        </section>
+    </table>
+
+
+</body>
+
+</html>
